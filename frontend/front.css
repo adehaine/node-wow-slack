@@ -23,7 +23,7 @@ body {background: #212121;} /* 900 */
 .character-loot-date {font-weight: bold;}
 .character-loot-details {margin-left: 15px; font-weight: bold;}
 .character-loot-details a {text-decoration: none;}
-.character-loot-details img {width: 40px; height: 40px;}
+.character-loot-details img {width: 39px; height: 39px;}
 .guild-loot {margin-top: 20px; margin-left: 20px;}
 .guild-loot-date {font-weight: bold;}
 .guild-loot-content {margin-left: 10px; font-weight: bold;}
