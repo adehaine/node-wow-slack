@@ -17,7 +17,7 @@ router.get('/', function(req, res, next){
         res.send({characters: charactersData});
     });
 });
-
+// 1-2-3-4
 router.get('/update', function(req, res, next){
     WoWGuild.members(function(data) {
         var characters = data.members;
