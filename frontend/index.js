@@ -45,6 +45,7 @@ angular.module('wowApp', [])
             });
         };
 
+        // Test ADE
         var init = function(){
             $http.get('characters').success(function(data){
                 $scope.characters = data.characters;
