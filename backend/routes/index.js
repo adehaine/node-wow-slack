@@ -13,7 +13,7 @@ var slack = new Slack(Parameters.Slack.hook,{
 	username: "wow-bot"
 });
 var neCache = require ("../services/mongo-cache.js");
-
+// je suis un test
 var buildNewsMessage = function(item, callback){
 	if(item.type === 'itemLoot'){
 		WoW.itemInfos(item, item.context, true, function(itemData, sure){
